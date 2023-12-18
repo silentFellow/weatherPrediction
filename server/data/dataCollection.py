@@ -7,9 +7,9 @@ import polars as pl
 months = np.arange(1, 13)
 endDates = np.array([31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]) """
 
-years = np.array([2023])
-months = np.arange(8, 11)
-endDates = np.array([31, 30, 31])
+years = np.array([2018])
+months = np.arange(1, 6)
+endDates = np.array([31, 28, 31, 30, 31])
 
 try:
   df = pl.read_csv("rawData.csv")
@@ -39,9 +39,12 @@ except:
   })
 
 GEO_ENCODING_API_KEY = "69a1dcf5b06f61a63bbf2d30ee3651a1"
-WEATHER_BIT_API_KEY = "30ce3b09c6a54e5abcc7fc107d23f767"
+""" WEATHER_BIT_API_KEY = "30ce3b09c6a54e5abcc7fc107d23f767" """
+WEATHER_BIT_API_KEY = "e54b6b8fb2b348f88e942f98059d0c27"
 
-cities = np.array(['Erode', 'Coimbatore', 'Chennai', 'Tiruppur', 'Karur', 'Namakkal', 'Nilgiris', 'Thanjavur', 'Vellore', 'Dharmapuri'])
+
+""" cities = np.array(['Erode', 'Coimbatore', 'Chennai', 'Tiruppur', 'Karur', 'Namakkal', 'Nilgiris', 'Thanjavur', 'Vellore', 'Dharmapuri']) """
+cities = np.array(['Erode', 'Coimbatore'])
 
 count = 0
 
@@ -81,7 +84,8 @@ for city in cities:
         'result': res['weather']['description']
       })
 
-        df = pl.concat([df, info])
+        if res['weather']['description'] == 'Moderate rain' or res['weather']['description'] == 'Thunderstorm with heavy rain' or res['weather']['description'] == 'Light rain' or res['weather']['description'] == 'Heavy rain':
+          df = pl.concat([df, info])
 
       count += 1
       print(f'completed {count}...')
