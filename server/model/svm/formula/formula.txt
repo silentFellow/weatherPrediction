@@ -1,0 +1,7 @@
+f(X) = w . X + b
+
+where: 
+* w => weight of the vector, 
+* X => input feature vector, 
+* b => bias term
+

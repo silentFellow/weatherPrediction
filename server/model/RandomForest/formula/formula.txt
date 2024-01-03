@@ -1,0 +1,3 @@
+-- put same formulas as decission tree
+
+Final Prediction = Mode(Individual decission tree)
