@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.6.18)  23 JUN 2024 10:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.6.18)  14 JUL 2024 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**conference_101719.tex
-(./conference_101719.tex
+**ieee.tex
+(./ieee.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -304,7 +304,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box55
 )
-(./conference_101719.aux
+(./ieee.aux
 
 LaTeX Warning: Label `fig:decision_tree_1' multiply defined.
 
@@ -324,7 +324,7 @@ LaTeX Warning: Label `fig:decision_tree_3' multiply defined.
 LaTeX Warning: Label `sub@fig:decision_tree_3' multiply defined.
 
 )
-\openout1 = `conference_101719.aux'.
+\openout1 = `ieee.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -383,10 +383,10 @@ f-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-<../images/flow_chart.png, id=11, 1220.56pt x 2018.54124pt>
-File: ../images/flow_chart.png Graphic file (type png)
-<use ../images/flow_chart.png>
-Package pdftex.def Info: ../images/flow_chart.png  used on input line 59.
+<../../images/flow_chart.png, id=11, 1220.56pt x 2018.54124pt>
+File: ../../images/flow_chart.png Graphic file (type png)
+<use ../../images/flow_chart.png>
+Package pdftex.def Info: ../../images/flow_chart.png  used on input line 59.
 (pdftex.def)             Requested size: 258.0pt x 426.67822pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 59--60
@@ -413,28 +413,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[2 <../images/flow_chart.png>]
-<../images/decision_tree/confusion_matrix_heatmap.png, id=17, 462.528pt x 346.8
-96pt>
-File: ../images/decision_tree/confusion_matrix_heatmap.png Graphic file (type p
-ng)
-<use ../images/decision_tree/confusion_matrix_heatmap.png>
-Package pdftex.def Info: ../images/decision_tree/confusion_matrix_heatmap.png  
-used on input line 71.
+[2 <../../images/flow_chart.png>]
+<../../images/decision_tree/confusion_matrix_heatmap.png, id=17, 462.528pt x 34
+6.896pt>
+File: ../../images/decision_tree/confusion_matrix_heatmap.png Graphic file (typ
+e png)
+<use ../../images/decision_tree/confusion_matrix_heatmap.png>
+Package pdftex.def Info: ../../images/decision_tree/confusion_matrix_heatmap.pn
+g  used on input line 71.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-<../images/decision_tree/roc_curve.png, id=18, 462.528pt x 346.896pt>
-File: ../images/decision_tree/roc_curve.png Graphic file (type png)
-<use ../images/decision_tree/roc_curve.png>
-Package pdftex.def Info: ../images/decision_tree/roc_curve.png  used on input l
-ine 77.
+<../../images/decision_tree/roc_curve.png, id=18, 462.528pt x 346.896pt>
+File: ../../images/decision_tree/roc_curve.png Graphic file (type png)
+<use ../../images/decision_tree/roc_curve.png>
+Package pdftex.def Info: ../../images/decision_tree/roc_curve.png  used on inpu
+t line 77.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-<../images/decision_tree/precision_recall_curve.png, id=19, 462.528pt x 346.896
-pt>
-File: ../images/decision_tree/precision_recall_curve.png Graphic file (type png
-)
-<use ../images/decision_tree/precision_recall_curve.png>
-Package pdftex.def Info: ../images/decision_tree/precision_recall_curve.png  us
-ed on input line 83.
+<../../images/decision_tree/precision_recall_curve.png, id=19, 462.528pt x 346.
+896pt>
+File: ../../images/decision_tree/precision_recall_curve.png Graphic file (type 
+png)
+<use ../../images/decision_tree/precision_recall_curve.png>
+Package pdftex.def Info: ../../images/decision_tree/precision_recall_curve.png 
+ used on input line 83.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 69--87
@@ -451,27 +451,28 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 69--87
 [] 
  []
 
-<../images/KNeighbors_classifier/confusion_matrix_heatmap.png, id=20, 462.528pt
- x 346.896pt>
-File: ../images/KNeighbors_classifier/confusion_matrix_heatmap.png Graphic file
- (type png)
-<use ../images/KNeighbors_classifier/confusion_matrix_heatmap.png>
-Package pdftex.def Info: ../images/KNeighbors_classifier/confusion_matrix_heatm
-ap.png  used on input line 97.
+<../../images/KNeighbors_classifier/confusion_matrix_heatmap.png, id=20, 462.52
+8pt x 346.896pt>
+File: ../../images/KNeighbors_classifier/confusion_matrix_heatmap.png Graphic f
+ile (type png)
+<use ../../images/KNeighbors_classifier/confusion_matrix_heatmap.png>
+Package pdftex.def Info: ../../images/KNeighbors_classifier/confusion_matrix_he
+atmap.png  used on input line 97.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-<../images/KNeighbors_classifier/roc_curve.png, id=21, 462.528pt x 346.896pt>
-File: ../images/KNeighbors_classifier/roc_curve.png Graphic file (type png)
-<use ../images/KNeighbors_classifier/roc_curve.png>
-Package pdftex.def Info: ../images/KNeighbors_classifier/roc_curve.png  used on
- input line 103.
+<../../images/KNeighbors_classifier/roc_curve.png, id=21, 462.528pt x 346.896pt
+>
+File: ../../images/KNeighbors_classifier/roc_curve.png Graphic file (type png)
+<use ../../images/KNeighbors_classifier/roc_curve.png>
+Package pdftex.def Info: ../../images/KNeighbors_classifier/roc_curve.png  used
+ on input line 103.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-<../images/KNeighbors_classifier/precision_recall_curve.png, id=22, 462.528pt x
- 346.896pt>
-File: ../images/KNeighbors_classifier/precision_recall_curve.png Graphic file (
-type png)
-<use ../images/KNeighbors_classifier/precision_recall_curve.png>
-Package pdftex.def Info: ../images/KNeighbors_classifier/precision_recall_curve
-.png  used on input line 109.
+<../../images/KNeighbors_classifier/precision_recall_curve.png, id=22, 462.528p
+t x 346.896pt>
+File: ../../images/KNeighbors_classifier/precision_recall_curve.png Graphic fil
+e (type png)
+<use ../../images/KNeighbors_classifier/precision_recall_curve.png>
+Package pdftex.def Info: ../../images/KNeighbors_classifier/precision_recall_cu
+rve.png  used on input line 109.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 95--113
@@ -509,29 +510,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
-[3 <../images/decision_tree/confusion_matrix_heatmap.png> <../images/decision_t
-ree/roc_curve.png> <../images/decision_tree/precision_recall_curve.png>]
-<../images/logistic_regression/confusion_matrix_heatmap.png, id=36, 462.528pt x
- 346.896pt>
-File: ../images/logistic_regression/confusion_matrix_heatmap.png Graphic file (
-type png)
-<use ../images/logistic_regression/confusion_matrix_heatmap.png>
-Package pdftex.def Info: ../images/logistic_regression/confusion_matrix_heatmap
-.png  used on input line 123.
+[3 <../../images/decision_tree/confusion_matrix_heatmap.png> <../../images/deci
+sion_tree/roc_curve.png> <../../images/decision_tree/precision_recall_curve.png
+>]
+<../../images/logistic_regression/confusion_matrix_heatmap.png, id=36, 462.528p
+t x 346.896pt>
+File: ../../images/logistic_regression/confusion_matrix_heatmap.png Graphic fil
+e (type png)
+<use ../../images/logistic_regression/confusion_matrix_heatmap.png>
+Package pdftex.def Info: ../../images/logistic_regression/confusion_matrix_heat
+map.png  used on input line 123.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-<../images/logistic_regression/roc_curve.png, id=37, 462.528pt x 346.896pt>
-File: ../images/logistic_regression/roc_curve.png Graphic file (type png)
-<use ../images/logistic_regression/roc_curve.png>
-Package pdftex.def Info: ../images/logistic_regression/roc_curve.png  used on i
-nput line 129.
+<../../images/logistic_regression/roc_curve.png, id=37, 462.528pt x 346.896pt>
+File: ../../images/logistic_regression/roc_curve.png Graphic file (type png)
+<use ../../images/logistic_regression/roc_curve.png>
+Package pdftex.def Info: ../../images/logistic_regression/roc_curve.png  used o
+n input line 129.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-<../images/logistic_regression/precision_recall_curve.png, id=38, 462.528pt x 3
-46.896pt>
-File: ../images/logistic_regression/precision_recall_curve.png Graphic file (ty
-pe png)
-<use ../images/logistic_regression/precision_recall_curve.png>
-Package pdftex.def Info: ../images/logistic_regression/precision_recall_curve.p
-ng  used on input line 135.
+<../../images/logistic_regression/precision_recall_curve.png, id=38, 462.528pt 
+x 346.896pt>
+File: ../../images/logistic_regression/precision_recall_curve.png Graphic file 
+(type png)
+<use ../../images/logistic_regression/precision_recall_curve.png>
+Package pdftex.def Info: ../../images/logistic_regression/precision_recall_curv
+e.png  used on input line 135.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 121--139
@@ -558,22 +560,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
-File: ../images/logistic_regression/confusion_matrix_heatmap.png Graphic file (
-type png)
-<use ../images/logistic_regression/confusion_matrix_heatmap.png>
-Package pdftex.def Info: ../images/logistic_regression/confusion_matrix_heatmap
-.png  used on input line 149.
+File: ../../images/logistic_regression/confusion_matrix_heatmap.png Graphic fil
+e (type png)
+<use ../../images/logistic_regression/confusion_matrix_heatmap.png>
+Package pdftex.def Info: ../../images/logistic_regression/confusion_matrix_heat
+map.png  used on input line 149.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-File: ../images/logistic_regression/roc_curve.png Graphic file (type png)
-<use ../images/logistic_regression/roc_curve.png>
-Package pdftex.def Info: ../images/logistic_regression/roc_curve.png  used on i
-nput line 155.
+File: ../../images/logistic_regression/roc_curve.png Graphic file (type png)
+<use ../../images/logistic_regression/roc_curve.png>
+Package pdftex.def Info: ../../images/logistic_regression/roc_curve.png  used o
+n input line 155.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-File: ../images/logistic_regression/precision_recall_curve.png Graphic file (ty
-pe png)
-<use ../images/logistic_regression/precision_recall_curve.png>
-Package pdftex.def Info: ../images/logistic_regression/precision_recall_curve.p
-ng  used on input line 161.
+File: ../../images/logistic_regression/precision_recall_curve.png Graphic file 
+(type png)
+<use ../../images/logistic_regression/precision_recall_curve.png>
+Package pdftex.def Info: ../../images/logistic_regression/precision_recall_curv
+e.png  used on input line 161.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 147--165
@@ -607,32 +609,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-[4 <../images/KNeighbors_classifier/confusion_matrix_heatmap.png> <../images/KN
-eighbors_classifier/roc_curve.png> <../images/KNeighbors_classifier/precision_r
-ecall_curve.png>] [5 <../images/logistic_regression/confusion_matrix_heatmap.pn
-g> <../images/logistic_regression/roc_curve.png> <../images/logistic_regression
-/precision_recall_curve.png>]
-<../images/random_forest/confusion_matrix_heatmap.png, id=51, 462.528pt x 346.8
-96pt>
-File: ../images/random_forest/confusion_matrix_heatmap.png Graphic file (type p
-ng)
-<use ../images/random_forest/confusion_matrix_heatmap.png>
-Package pdftex.def Info: ../images/random_forest/confusion_matrix_heatmap.png  
-used on input line 176.
+[4 <../../images/KNeighbors_classifier/confusion_matrix_heatmap.png> <../../ima
+ges/KNeighbors_classifier/roc_curve.png> <../../images/KNeighbors_classifier/pr
+ecision_recall_curve.png>] [5 <../../images/logistic_regression/confusion_matri
+x_heatmap.png> <../../images/logistic_regression/roc_curve.png> <../../images/l
+ogistic_regression/precision_recall_curve.png>]
+<../../images/random_forest/confusion_matrix_heatmap.png, id=51, 462.528pt x 34
+6.896pt>
+File: ../../images/random_forest/confusion_matrix_heatmap.png Graphic file (typ
+e png)
+<use ../../images/random_forest/confusion_matrix_heatmap.png>
+Package pdftex.def Info: ../../images/random_forest/confusion_matrix_heatmap.pn
+g  used on input line 176.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-<../images/random_forest/roc_curve.png, id=52, 462.528pt x 346.896pt>
-File: ../images/random_forest/roc_curve.png Graphic file (type png)
-<use ../images/random_forest/roc_curve.png>
-Package pdftex.def Info: ../images/random_forest/roc_curve.png  used on input l
-ine 182.
+<../../images/random_forest/roc_curve.png, id=52, 462.528pt x 346.896pt>
+File: ../../images/random_forest/roc_curve.png Graphic file (type png)
+<use ../../images/random_forest/roc_curve.png>
+Package pdftex.def Info: ../../images/random_forest/roc_curve.png  used on inpu
+t line 182.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-<../images/random_forest/precision_recall_curve.png, id=53, 462.528pt x 346.896
-pt>
-File: ../images/random_forest/precision_recall_curve.png Graphic file (type png
-)
-<use ../images/random_forest/precision_recall_curve.png>
-Package pdftex.def Info: ../images/random_forest/precision_recall_curve.png  us
-ed on input line 188.
+<../../images/random_forest/precision_recall_curve.png, id=53, 462.528pt x 346.
+896pt>
+File: ../../images/random_forest/precision_recall_curve.png Graphic file (type 
+png)
+<use ../../images/random_forest/precision_recall_curve.png>
+Package pdftex.def Info: ../../images/random_forest/precision_recall_curve.png 
+ used on input line 188.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 174--192
@@ -671,24 +673,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-[6 <../images/random_forest/confusion_matrix_heatmap.png> <../images/random_for
-est/roc_curve.png> <../images/random_forest/precision_recall_curve.png>]
-<../images/svm/confusion_matrix_heatmap.png, id=60, 462.528pt x 346.896pt>
-File: ../images/svm/confusion_matrix_heatmap.png Graphic file (type png)
-<use ../images/svm/confusion_matrix_heatmap.png>
-Package pdftex.def Info: ../images/svm/confusion_matrix_heatmap.png  used on in
-put line 202.
+[6 <../../images/random_forest/confusion_matrix_heatmap.png> <../../images/rand
+om_forest/roc_curve.png> <../../images/random_forest/precision_recall_curve.png
+>]
+<../../images/svm/confusion_matrix_heatmap.png, id=60, 462.528pt x 346.896pt>
+File: ../../images/svm/confusion_matrix_heatmap.png Graphic file (type png)
+<use ../../images/svm/confusion_matrix_heatmap.png>
+Package pdftex.def Info: ../../images/svm/confusion_matrix_heatmap.png  used on
+ input line 202.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-<../images/svm/roc_curve.png, id=61, 462.528pt x 346.896pt>
-File: ../images/svm/roc_curve.png Graphic file (type png)
-<use ../images/svm/roc_curve.png>
-Package pdftex.def Info: ../images/svm/roc_curve.png  used on input line 208.
+<../../images/svm/roc_curve.png, id=61, 462.528pt x 346.896pt>
+File: ../../images/svm/roc_curve.png Graphic file (type png)
+<use ../../images/svm/roc_curve.png>
+Package pdftex.def Info: ../../images/svm/roc_curve.png  used on input line 208
+.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
-<../images/svm/precision_recall_curve.png, id=62, 462.528pt x 346.896pt>
-File: ../images/svm/precision_recall_curve.png Graphic file (type png)
-<use ../images/svm/precision_recall_curve.png>
-Package pdftex.def Info: ../images/svm/precision_recall_curve.png  used on inpu
-t line 214.
+<../../images/svm/precision_recall_curve.png, id=62, 462.528pt x 346.896pt>
+File: ../../images/svm/precision_recall_curve.png Graphic file (type png)
+<use ../../images/svm/precision_recall_curve.png>
+Package pdftex.def Info: ../../images/svm/precision_recall_curve.png  used on i
+nput line 214.
 (pdftex.def)             Requested size: 258.0pt x 193.50879pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 200--218
@@ -717,8 +721,8 @@ Underfull \hbox (badness 3977) in paragraph at lines 255--256
 -
  []
 
-[7 <../images/svm/confusion_matrix_heatmap.png> <../images/svm/roc_curve.png> <
-../images/svm/precision_recall_curve.png>]
+[7 <../../images/svm/confusion_matrix_heatmap.png> <../../images/svm/roc_curve.
+png> <../../images/svm/precision_recall_curve.png>]
 Underfull \hbox (badness 4303) in paragraph at lines 256--257
 \OT1/ptm/m/n/8 S. Salcedo-Sanz, "A mix-ture of ex-perts model for pre-dict-ing
  []
@@ -767,6 +771,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--258
 e
  []
 
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+60.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \hbox (badness 2189) in paragraph at lines 260--261
+\OT1/ptm/m/n/8 Koso-vic, Ste-fano Alessan-drini,[]a\TS1/ptm/m/n/8 ¿ \OT1/ptm/m/
+n/8 Ma-chine Learn-ing for Ap-plied
+ []
+
+Package textcomp Info: Symbol \textasciiacute not provided by
+(textcomp)             font family ptm in TS1 encoding.
+(textcomp)             Default family used instead on input line 265.
+Package textcomp Info: Symbol \textasciiacute not provided by
+(textcomp)             font family ptm in TS1 encoding.
+(textcomp)             Default family used instead on input line 265.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -778,21 +798,22 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[8
+[8{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
 
-] (./conference_101719.aux)
+]
+(./ieee.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5887 strings out of 477985
- 101644 string characters out of 5839370
+ 5933 strings out of 477985
+ 102410 string characters out of 5839370
  1871388 words of memory out of 6000000
- 26021 multiletter control sequences out of 15000+600000
- 563767 words of font info for 141 fonts, out of 8000000 for 9000
+ 26061 multiletter control sequences out of 15000+600000
+ 564418 words of font info for 143 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 67i,14n,77p,2987b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,14n,77p,2974b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
@@ -800,14 +821,15 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
-/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (8 pages, 562694 bytes).
+blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm
+-super/sfrm0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ieee.pdf (8 pages, 568789 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
