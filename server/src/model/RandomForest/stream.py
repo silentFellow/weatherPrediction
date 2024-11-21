@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 import polars as pl
 
 # Load preprocessed data for reference
-file = pl.read_csv("../../data/preprocessedData.csv")
+file = pl.read_csv("./data.csv")
 
 # Load the trained model
 with open("model.pickle", 'rb') as model_file:
